@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #0d98ba;
+    color: #fff;
+    padding: 10px 0;
+}
+nav {
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body{
+    background-color: aqua;
+}
+.form {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+     background: url("downarrow1.svg") no-repeat center right 0.75rem;
+}
+
+.form-group input[type="submit"] {
+    background-color: rgb(128, 30, 0);
+    color: white;
+    padding: 5px 10px; 
+    font-size: 10px; 
+    float: left; 
+    margin-right: 10px; 
+}
+
+.form-group input[type="reset"] {
+    background-color: rgb(128, 30, 0);
+    color: white;
+    padding: 5px 10px; 
+    font-size: 10px; 
+    float: right; 
+    margin-right: 10px; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 10px 0;
+}
+.form-group {
+    position: relative; 
+}
+
+.form-group img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+}
+
+.clickable-area {
+    position: absolute; 
+    top: 50px; 
+    right: 100px; 
+    width: 50px; 
+    height: 200px; 
+    cursor: pointer; 
+}
